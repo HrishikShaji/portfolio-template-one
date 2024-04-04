@@ -1,7 +1,9 @@
+import { Container } from "./Container";
+
 export const Contact = () => {
 	return (
-		<div className="h-full w-full bg-white  text-black flex items-center justify-center">
-			CONTACT
-		</div>
+		<Container bgColor="black" textColor="white" title="CONTACT">
+			<div></div>
+		</Container>
 	);
 };
