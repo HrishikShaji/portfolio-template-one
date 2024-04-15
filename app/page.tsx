@@ -6,6 +6,7 @@ import { Features } from "./components/Features";
 import { Hero } from "./components/Hero";
 import { Pricing } from "./components/Pricing";
 import { Projects } from "./components/Projects";
+import { Services } from "./components/Services";
 import { Skills } from "./components/Skills";
 import { Testimonials } from "./components/Testimonials";
 
@@ -19,7 +20,8 @@ const components = [
 	{ z: 15, component: <Projects /> },
 	{ z: 10, component: <Testimonials /> },
 	{ z: 5, component: <Pricing /> },
-	{ z: 0, component: <Contact /> },
+	{ z: 0, component: <Services /> },
+	{ z: -10, component: <Contact /> },
 ];
 
 export default function Home() {
